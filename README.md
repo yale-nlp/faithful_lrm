@@ -5,6 +5,10 @@ This repository provides code and analysis utilities for studying faithful confi
 We introduce a framework for measuring faithful calibration in long-form reasoning traces by comparing linguistic decisiveness against three complementary intrinsic confidence estimators: representation-based confidence, token log-probability confidence, and sampling-consistency confidence. The framework is designed for reasoning models whose outputs contain long, dynamic chain-of-thought-style traces where confidence can shift across steps.
 
 <p align="center">
+    <a href="https://arxiv.org/pdf/2606.03969" style="display:inline-block;background-color:#2196F3;color:white;padding:10px 20px;text-align:center;text-decoration:none;font-size:20px;border-radius:5px;">📄 <b>Paper</b></a>
+</p>
+
+<p align="center">
   <img src="assets/methods_figure.png" alt="Overview of the faithful confidence expression framework" width="90%">
 </p>
 
@@ -271,5 +275,11 @@ analysis/outputs/
 If you find this repository useful, please cite our paper:
 
 ```bibtex
-Coming soon!
+@misc{gani2026quantifying,
+      title={Quantifying Faithful Confidence Expression in Large Reasoning Models}, 
+      author={Areeb Gani and Asal Meskin and Gabrielle Kaili-May Liu and Arman Cohan},
+      journal={arXiv preprint arXiv:2606.03969},
+      year={2026},
+      url={https://arxiv.org/abs/2606.03969}, 
+}
 ```

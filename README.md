@@ -14,10 +14,6 @@ We introduce a framework for measuring faithful calibration in long-form reasoni
 
 Our experiments study faithful confidence expression across multiple reasoning-intensive datasets, model families, and prompt interventions. The results show that faithful confidence expression remains a persistent challenge for LRMs: reasoning behavior does not automatically imply better uncertainty expression, prompt interventions do not reliably repair faithful calibration, and different confidence estimators can give substantially different views of the same trace.
 
-📄 **Paper**
-
-Coming soon.
-
 ## Quick Links
 
 - 🛠 [Installation](#-installation)
